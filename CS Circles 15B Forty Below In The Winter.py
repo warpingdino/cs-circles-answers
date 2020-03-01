@@ -11,4 +11,4 @@ elif theList[len(theList) - 1] == 'F':
     theList.pop(len(theList) - 1)
     degrees = float(''.join(theList))
     c = (degrees - 32) * 5 / 9
-    print(str(f) + 'C')
+    print(str(c) + 'C')
